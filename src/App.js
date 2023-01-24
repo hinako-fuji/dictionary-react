@@ -8,7 +8,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>This project was coded by Hinako and is open source</footer>
+        <footer>This project was coded by Hinako</footer>
       </div>
     </div>
   );
