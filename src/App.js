@@ -12,7 +12,16 @@ function App() {
         <main>
           <Dictionary defaultKeyword="sunset" />
         </main>
-        <footer>This project was coded by Hinako</footer>
+        <footer>
+          Open-source code by{" "}
+          <a
+            href="https://github.com/hinako-fuji/dictionary-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Hinako
+          </a>
+        </footer>
       </div>
     </div>
   );

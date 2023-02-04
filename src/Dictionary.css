@@ -28,3 +28,17 @@
   padding: 0;
   font-size: 17px;
 }
+
+@media (max-width: 768px) {
+  .Dictionary .search-button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .Dictionary section {
+    padding: 30px 20px;
+
+    margin: 20px;
+  }
+}

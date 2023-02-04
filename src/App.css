@@ -19,3 +19,15 @@
   text-align: center;
   margin: 50px 0;
 }
+
+.App footer a {
+  color: #61a4bc;
+}
+
+@media (max-width: 576px) {
+  .App h1 {
+    letter-spacing: 1.5px;
+
+    font-size: 38px;
+  }
+}

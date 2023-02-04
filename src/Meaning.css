@@ -7,5 +7,12 @@
 
 .Meaning .example {
   margin-top: 15px;
-  opacity: 0.7;
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+  .Meaning h3 {
+    font-size: 26px;
+  }
 }

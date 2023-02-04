@@ -51,7 +51,7 @@ export default function Dictionary(props) {
         <section>
           <form onSubmit={handleSubmit}>
             <div className="row">
-              <div className="col-9">
+              <div className="col-md-9">
                 <input
                   type="search"
                   className="form-control"
@@ -59,7 +59,7 @@ export default function Dictionary(props) {
                   onChange={handleKeywordChange}
                 />
               </div>
-              <div className="col-3 p-0">
+              <div className="col-md-3 ">
                 <button
                   type="submit"
                   className="btn btn-primary w-100 search-button"
